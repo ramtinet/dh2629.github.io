@@ -1,0 +1,104 @@
+html, body, main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-frame{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.top-frame > section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    align-self: flex-end;
+}
+.top-frame > section > div{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: flex-end;
+    margin-right: 15px;
+}
+.water{
+    width: 90px;
+    background-color: #64C8FF;
+}
+#water1{
+    height: 420px;
+    margin-bottom: 400px;
+}
+#water2{
+    width: 65px;
+    height: 70px;
+    margin-bottom: 50px;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+}
+#box-container{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-frame{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-frame > div{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#up-btn, #down-btn{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.svg-box{
+    width: 50px;
+    height: 50px;
+    color: black;
+    position: absolute;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.svg-frame{
+    width: 500px;
+    height: 500px;
+    color: black;
+    position: absolute;
+}
+
